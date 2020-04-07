@@ -7,22 +7,14 @@
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
+          alt="Pandemic Insight"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="./assets/PandemicInsightLogo_LogoMaker.png"
           transition="scale-transition"
-          width="40"
+          width="250"
         />
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        <!-- <h2>Pandemic Hub</h2> -->
       </div>
 
       <v-spacer></v-spacer>
