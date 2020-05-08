@@ -30,6 +30,17 @@
     </v-app-bar>
 
     <v-content>
+      <pi-side-menu/>
+      <v-card
+        class="mx-auto"
+        width="100%"
+        >
+      <v-img
+        src="./assets/VirusImg.png"
+        class="m-2"
+        style="width:100%;"
+      />
+      </v-card>
       <HelloWorld/>
     </v-content>
   </v-app>
@@ -37,12 +48,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import PiSideMenu from './components/Navigation/SideMenu';
 
 export default {
   name: 'App',
-
   components: {
     HelloWorld,
+    PiSideMenu
   },
 
   data: () => ({
